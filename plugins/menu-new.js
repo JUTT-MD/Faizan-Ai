@@ -286,8 +286,8 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363420933039839@newsletter',
-                newsletterName: config.OWNER_NAME,
+                newsletterJid: '120363421896999345@newsletter',
+                newsletterName: config.FAIZAN-AI,
                 serverMessageId: 143
             }
         };
@@ -643,7 +643,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/adhn5v.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/jq65ev.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },
