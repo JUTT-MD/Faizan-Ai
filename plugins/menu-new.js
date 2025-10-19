@@ -22,13 +22,13 @@ cmd({
 ⟬★⟭────────────────
 ⟬★⟭ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡
 ⟬★⟭────────────────
-│ 👑  Owner » *ANAYAT* *KING*
+│ 👑  Owner » *FAIZAN-AI* *KING*
 │ 🤖  Baileys » *Multi Device*
 │ 💻  Type » *NodeJs*
 │ 🚀  Platform » *Heroku*
 │ ⚙️  Mode » *[public]*
 │ 🔣  Prefix » *[.]*
-│ 🏷️  creater » *AnayatAI Official*
+│ 🏷️  creater » *FAIZAN-AI Official*
 │ 📚  Commands » *332*
 ⟬★⟭─────────────────
 ╔═══◇◆◇════════════╗
@@ -286,7 +286,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363420933039839@newsletter',
+                newsletterJid: '120363421896999345@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -298,7 +298,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/adhn5v.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/jq65ev.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -643,7 +643,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/adhn5v.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/jq65ev.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },
